@@ -4,12 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FALL 22 DM</title>
+    <title>Assignment 1</title>
   </head>
   <body>
-    <h2>FALL 22 DM</h2>
-    <ul>
-      <li><a href="./Assign1/index.html">Assignment # 01</a></li>
-    </ul>
+    <h2>INPUT BOX</h2>
+    Input Size:
+    <input type="number" id="nodes" onkeyup="GenerateInputFields(this)" />
+    <br />
+    <br />
+    <div id="inputBox"></div>
+    <hr />
+    <button id="btn" onclick="CalculateTransitiveClosure()">Run</button>
+    <br />
+    <h2>OUTPUT</h2>
+    <div id="output"></div>
+    <script src="./script.js"></script>
   </body>
 </html>
